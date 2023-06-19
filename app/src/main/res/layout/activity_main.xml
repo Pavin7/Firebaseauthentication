@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/iconlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="email"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="password"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:hint="confirm password"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/signup"
+        android:text="Sign Up"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#36F4C8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/text"
+        android:textColor="#00BCD4"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="already have an account? Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+
+
+
+
+</LinearLayout>
